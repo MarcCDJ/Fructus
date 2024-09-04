@@ -34,7 +34,6 @@ struct FruitHeaderView: View {
     }
 }
 
-#Preview {
+#Preview(traits: .fixedLayout(width: 375, height: 440)) {
     FruitHeaderView(fruit: fruitsData[0])
-        .previewLayout(.fixed(width: 375, height: 440))
 }

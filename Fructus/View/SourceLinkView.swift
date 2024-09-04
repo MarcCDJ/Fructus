@@ -21,8 +21,7 @@ struct SourceLinkView: View {
     }
 }
 
-#Preview {
+#Preview(traits: .sizeThatFitsLayout) {
     SourceLinkView()
-        .previewLayout(.sizeThatFits)
         .padding()
 }

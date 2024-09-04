@@ -35,7 +35,6 @@ struct StartButtonView: View {
 }
 
 // MARK: - PREVIEW
-#Preview {
+#Preview(traits: .sizeThatFitsLayout) {
     StartButtonView()
-        .previewLayout(.sizeThatFits)
 }
