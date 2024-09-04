@@ -39,8 +39,7 @@ struct FruitRowView: View {
 }
 
 // MARK: - PREVIEW
-#Preview {
+#Preview(traits: .sizeThatFitsLayout) {
     FruitRowView(fruit: fruitsData[0])
-        .previewLayout(.sizeThatFits)
         .padding()
 }
